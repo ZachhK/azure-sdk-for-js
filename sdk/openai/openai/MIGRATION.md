@@ -69,7 +69,7 @@ Migrated code:
 ```typescript
 import { AzureOpenAI } from "openai";
 const deployment = "Your Azure OpenAI deployment";
-const apiVersion = "2024-08-01-preview";
+const apiVersion = "2024-06-01";
 const options = { azureADTokenProvider, deployment, apiVersion }
 const client = new AzureOpenAI(options);
 ```

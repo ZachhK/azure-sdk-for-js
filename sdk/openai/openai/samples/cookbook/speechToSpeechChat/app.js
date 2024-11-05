@@ -24,7 +24,7 @@ const openAI = new AzureOpenAI({
   endpoint: process.env.AZURE_OPENAI_ENDPOINT,
   deployment: process.env.AZURE_OPENAI_DEPLOYMENT,
   azureADTokenProvider,
-  apiVersion: "2024-08-01-preview",
+  apiVersion: "2024-06-01",
 });
 
 app.get("/api/auth", async (req, res) => {
